@@ -1,0 +1,13 @@
+body { font-family: Arial, sans-serif; margin: 0; }
+.login { max-width: 380px; margin: 40px auto; padding: 16px; border: 1px solid #ddd; border-radius: 8px; }
+.room-header { display:flex; justify-content:space-between; padding:12px; background:#f4f4f4; }
+.main { display:flex; height: calc(100vh - 64px); }
+.video-area { flex: 2; padding:12px; overflow:auto; }
+.chat-area { width: 360px; border-left:1px solid #eee; padding:12px; overflow:auto; }
+.local-video, .remote-video { margin-bottom:12px; }
+.video-grid { display:flex; flex-wrap:wrap; gap:12px; }
+.label { font-size:12px; color:#333; }
+.messages { height: 60vh; overflow:auto; border:1px solid #eee; padding:8px; background:#fff; }
+.message { margin-bottom:8px; }
+.message.me { text-align:right; }
+.send { display:flex; gap:8px; margin-top:8px; }
